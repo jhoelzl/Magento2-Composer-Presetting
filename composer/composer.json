@@ -1,0 +1,19 @@
+{
+  "name": "jhoelzl/magento",
+  "require": {
+    "magento/magento-composer-installer": "*",
+    "magento/product-community-edition": "*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://packages.magento.com/"
+    }
+  ],
+  "extra": {
+    "magento-root-dir": "../magento",
+    "magento-deploystrategy": "copy",
+    "magento-force": "override" 
+  },
+  "minimum-stability": "dev"
+}
