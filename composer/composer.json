@@ -1,5 +1,6 @@
 {
   "name": "jhoelzl/magento",
+  "minimum-stability": "dev",
   "require": {
     "magento/magento-composer-installer": "*",
     "magento/product-community-edition": "*"
@@ -14,6 +15,6 @@
     "magento-root-dir": "../magento",
     "magento-deploystrategy": "copy",
     "magento-force": "override" 
-  },
-  "minimum-stability": "dev"
+  }
+  
 }
